@@ -1,5 +1,13 @@
 {
 	"$schema": "node_modules/lerna/schemas/lerna-schema.json",
-	"version": "0.1.1",
-	"npmClient": "yarn"
+	"version": "0.1.2",
+	"npmClient": "yarn",
+	"command": {
+		"publish": {
+			"registry": "https://npm.pkg.github.com/",
+			"ignoreChanges": ["ignored-file", "*.md"],
+			"access": "restricted"
+		}
+	},
+	"packages": ["packages/*"]
 }

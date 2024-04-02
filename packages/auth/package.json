@@ -1,9 +1,10 @@
 {
-	"name": "@nestjs-twurple/auth",
-	"version": "0.1.1",
+	"name": "@dev-namba/nestjs-twurple-auth",
+	"version": "0.1.2",
 	"publishConfig": {
 		"access": "public"
 	},
+	"private": "true",
 	"description": "A NestJS wrapper for @twurple/auth package",
 	"keywords": [
 		"nestjs",
