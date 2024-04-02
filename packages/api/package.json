@@ -1,10 +1,9 @@
 {
 	"name": "@oniya-with-chats/nestjs-twurple-api",
-	"version": "1.0.3",
-	"private": "true",
+	"version": "1.0.4",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/oniya-with-chats/nestjs-twurple.git",
+		"url": "git+https://github.com/oniya-with-chats/nestjs-twurple.git",
 		"directory": "packages/api"
 	},
 	"publishConfig": {

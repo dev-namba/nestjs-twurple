@@ -1,6 +1,6 @@
 {
 	"name": "@oniya-with-chats/nestjs-twurple-pubsub",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/oniya-with-chats/nestjs-twurple.git",
@@ -10,7 +10,6 @@
 		"access": "restricted",
 		"registry": "https://npm.pkg.github.com/"
 	},
-	"private": "true",
 	"description": "A NestJS wrapper for @twurple/pubsub package",
 	"keywords": [
 		"nestjs",
