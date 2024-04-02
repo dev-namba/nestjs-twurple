@@ -1,8 +1,14 @@
 {
 	"name": "@oniya-with-chats/nestjs-twurple-auth",
 	"version": "0.1.4",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/oniya-with-chats/nestjs-twurple.git",
+		"directory": "packages/api"
+	},
 	"publishConfig": {
-		"access": "public"
+		"access": "restricted",
+		"registry": "https://npm.pkg.github.com/"
 	},
 	"private": "true",
 	"description": "A NestJS wrapper for @twurple/auth package",
@@ -20,11 +26,6 @@
 	"sideEffects": false,
 	"main": "lib",
 	"types": "lib",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/stimulcross/nestjs-twurple.git",
-		"directory": "packages/auth"
-	},
 	"homepage": "https://github.com/stimulcross/nestjs-twurple",
 	"author": "Stimul Cross <stimulcross@gmail.com>",
 	"license": "MIT",

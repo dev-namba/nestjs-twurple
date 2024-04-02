@@ -1,10 +1,16 @@
 {
 	"name": "@oniya-with-chats/nestjs-twurple-api",
 	"version": "0.1.4",
-	"publishConfig": {
-		"access": "public"
-	},
 	"private": "true",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/oniya-with-chats/nestjs-twurple.git",
+		"directory": "packages/api"
+	},
+	"publishConfig": {
+		"access": "restricted",
+		"registry": "https://npm.pkg.github.com/"
+	},
 	"description": "A NestJS wrapper for @twurple/api package",
 	"keywords": [
 		"nestjs",
@@ -20,11 +26,6 @@
 	"sideEffects": false,
 	"main": "lib",
 	"types": "lib",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/stimulcross/nestjs-twurple.git",
-		"directory": "packages/api"
-	},
 	"engines": {
 		"node": ">=16"
 	},
