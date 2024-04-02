@@ -1,6 +1,6 @@
 {
 	"name": "@oniya-with-chats/nestjs-twurple-auth",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/oniya-with-chats/nestjs-twurple.git",
